@@ -1,0 +1,28 @@
+MiniReto dia 1 Analisis Network
+
+Abri la web con live server, luego con Ctrl + shift + I abri el devtools, abri la pestaña Network y presione “Disable cache” y presione Ctrl + R para recargar la web, primero aparecio 304 porque usaba la copia guardada en el cache, pero luego al desactivarla apareció 200
+
+Datos que pude observar en el Header:
+
+Url completa: http://localhost:5502/
+Protocolo: http
+Host: localhost
+Puerto: 5502
+Ruta: / (index.html por defecto)
+Metodo: GET
+Codigo de estado: 200 ok
+
+Prueba de ruta errónea:
+
+Escribí localhost:5502/promociones.html
+Url: http://localhost:5502/promociones.html
+Metodo: GET
+Codigo de estado: 404 Not Found
+eso se debe a que el servidor no encontro ese archivo, osea no existe en mi proyecto y en la interfaz de la web salio Cannot GET /promociones.html
+
+Roles de HTML, CSS y JavaScript en el proyecto Rueda Libre:
+
+HTML: le da la estructura al sitio, define el contenido, por ejemplo la tabla de tarifas
+CSS: le da diseño al sitio, le da su identidad visual (marca), por ejemplo cambiar el color a un botón
+JavaScript: le da funcionalidad, por ejemplo el cálculo de precio en los planes
+
