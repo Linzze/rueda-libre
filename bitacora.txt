@@ -26,3 +26,49 @@ HTML: le da la estructura al sitio, define el contenido, por ejemplo la tabla de
 CSS: le da diseño al sitio, le da su identidad visual (marca), por ejemplo cambiar el color a un botón
 JavaScript: le da funcionalidad, por ejemplo el cálculo de precio en los planes
 
+
+Rutas relativas
+
+menu
+
+Index.html (Inicio)
+
+Inicio - Inicio : index.html
+Inicio - Tarifas y rutas: paginas/tarifas.html
+Inicio - Reservas: paginas/reservas.html
+
+tarifas.html (Tarifas y rutas)
+
+Tarifas y rutas - Inicio: ../index.html
+Tarifas y rutas - Tarifas y rutas:tarifas.html
+Tarifas y rutas - Reservas: reservas.html
+
+reservas.html (Reservas)
+
+Reservas - Inicio:../index.html
+Reservas - Tarifas y rutas: tarifas.html
+Reservas - Reservas: reservas.html
+
+Otros enlaces
+
+párrafo del h1 a sección encuentranos dentro del mismo index.html <a href="#encuentranos"> -  <h2 id="encuentranos">
+
+Reservar ahora (esta en index.html) - reservas.html
+paginas/reservas.html
+
+Consulta nuestras tarifas (esta en index.html)
+paginas/tarifas.html
+
+Ver recorridos y precios (esta en index.html)
+paginas/tarifas.html#recorridos
+
+imagen logo (tarifas.html), la imagen va de img a tarifas.html
+../img/logo.png
+
+Reservar ahora(la de tarifas) - reservas
+reservas.html
+
+Volver al inicio (la de tarifas) - Inicio
+../index.html
+
+
